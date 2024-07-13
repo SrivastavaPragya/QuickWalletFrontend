@@ -216,3 +216,255 @@ margin-left: 2rem;
 
   margin-top: 8rem;
 }
+
+
+/* home3.css */
+.Home2Container{
+  margin-inline:  3rem;
+  margin-top: 2rem;
+
+    padding: 3rem;
+    text-align: center;
+   >h3{
+    font-family: "Poppins", sans-serif;
+    color: rgb(41, 183, 179);
+    font-size: 1.2rem;
+    font-weight: 300;
+   }
+   >h1{
+    margin-top: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(40, 33, 76);
+    font-size: 3.6rem;
+    font-weight: 400;
+   }
+
+   >img{
+    margin-top: 3rem;
+   
+   }
+}
+
+/* home 4.css */
+
+.Home4container {
+  padding: 0rem 4rem;
+  margin: 0rem 4rem;
+ 
+}
+
+.home4Img{
+    padding: 0rem 4rem;
+    margin: 0rem 4rem;
+    >img{
+        padding: 0rem 4rem;
+        margin: 0rem 4rem;
+    }
+}
+
+.Home4cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 4rem;
+    margin: 0rem 4rem;
+   
+    
+    
+}
+
+.home4card{
+    width: 22rem;
+    padding: 0rem 2rem;
+
+  margin-left: 4rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+  
+  
+    
+    
+    >h3{
+        margin-top: 1.5rem;
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(40, 33, 76);
+        font-size: 1.8rem;
+        font-weight: 400; 
+    }
+   >p{
+    margin-top: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: rgb(152,152,152);
+   }
+   >img{
+    margin-top: 2.5rem;
+
+   }
+   >button{
+    margin-top: 2rem;
+    background-color: #dad6d6;
+    padding: .5rem 2rem;
+    border: none;
+border-radius: 4px;
+text-align: center;
+margin-bottom: 2rem;
+color: #777777;
+font-family: "Poppins", sans-serif;
+font-size: .9rem;
+   }
+}
+
+.home4card:hover{
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px ;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 35px;
+    border: 2px solid rgb(255, 100, 0);
+    
+    
+    
+    >button{
+        background-color: rgb(255, 100, 0);
+        color: white;
+    }
+}
+
+
+/* home 5css */
+
+
+.Home5Conatiner{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+
+align-items: center;
+justify-content: center;
+
+margin-block: 5rem;
+
+>img{
+    margin-left: 4rem;
+}
+
+}
+
+.home5card{
+  
+
+
+  
+    width: 22rem;
+    text-align: center;
+    >h3{
+        margin-top: 1.5rem;
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(40, 33, 76);
+        font-size: 1.8rem;
+        font-weight: 400; 
+    }
+   >p{
+    margin-top: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: rgb(152,152,152);
+   }
+   >img{
+    margin-top: 2.5rem;
+
+   }
+   >button{
+    margin-top: 2rem;
+    background-color: #dad6d6;
+    padding: .5rem 2rem;
+    border: none;
+border-radius: 4px;
+text-align: center;
+margin-bottom: 2rem;
+color: #777777;
+font-family: "Poppins", sans-serif;
+font-size: .9rem;
+   }
+  
+}
+
+
+.home5card2{
+    
+      
+    margin-left: 3rem;
+        width: 22rem;
+        text-align: center;
+        >h3{
+            margin-top: 1.5rem;
+            font-family: "Roboto Condensed", sans-serif;
+            color: rgb(40, 33, 76);
+            font-size: 1.8rem;
+            font-weight: 400; 
+        }
+       >p{
+        margin-top: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        color: rgb(152,152,152);
+       }
+       >img{
+        margin-top: 2.5rem;
+    
+       }
+       >button{
+        margin-top: 2rem;
+        background-color: #dad6d6;
+        padding: .5rem 2rem;
+        border: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+       }
+      
+    
+}
+
+.home5card:hover{
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px ;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 35px;
+    border: 2px solid rgb(255, 100, 0);
+    
+    
+    
+    >button{
+        background-color: rgb(255, 100, 0);
+        color: white;
+    }
+}
+
+
+
+.home5card2:hover{
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px ;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 35px;
+    border: 2px solid rgb(255, 100, 0);
+    
+    
+    
+    >button{
+        background-color: rgb(255, 100, 0);
+        color: white;
+    }
+}
