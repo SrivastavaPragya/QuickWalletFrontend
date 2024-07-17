@@ -1,23 +1,23 @@
 import React from 'react'
-import "../../styles/Service.css"
+import "../../styles/Contact.css"
 
-const Service1 = () => {
+const Contact1 = () => {
   return (
-    <>
-    <div className="service1container">
-    <div className="service1topImg">
+    <div>
+       <div className="contact1container">
+    <div className="contact1topImg">
     <img src="./homebanner.png" alt="" />
     </div>
-   <div className="service1Content">
+   <div className="contact1Content">
     
-    <h1>Our Services</h1>
+    <h1>Contact Us</h1>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
    </div>
 
     </div>
     
-    </>
+    </div>
   )
 }
 
-export default Service1
+export default Contact1

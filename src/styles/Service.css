@@ -19,31 +19,23 @@
 }
 
 .service1container{
-   
+  background: linear-gradient(
+    to right,
+    rgb(203, 239, 230),
+    rgb(222, 226, 251),
+    rgb(227, 223, 251),
+    rgb(206, 239, 234),
+    rgb(253, 254, 252)
+  );
 }
-.service1topImg{
-    background: linear-gradient(
-        to right,
-        rgb(203, 239, 230),
-        rgb(222, 226, 251),
-        rgb(227, 223, 251),
-        rgb(206, 239, 234),
-        rgb(253, 254, 252)
-      );
 
-}
 .service1Content{
     height: 20rem;
-   
+    width: 60rem;
     text-align: center;
-    background: linear-gradient(
-        to right,
-        rgb(203, 239, 230),
-        rgb(222, 226, 251),
-        rgb(227, 223, 251),
-        rgb(206, 239, 234),
-        rgb(253, 254, 252)
-      );
+    margin: auto;
+   
+    
 
    
     >h1{
@@ -242,10 +234,10 @@ padding-block: 4rem;
   }
 
   .service3RightPart{
-    width: 60%;
+   
     row-gap: 2rem;
   margin-inline:2rem ;
-   padding-inline: 2rem;
+   padding-inline: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;    
@@ -255,7 +247,10 @@ padding-block: 4rem;
 
   .service3card{
     text-align: center;
-   
+
+ 
+   margin-inline: 1rem;
+   padding-inline: 1rem;
    
    
    
