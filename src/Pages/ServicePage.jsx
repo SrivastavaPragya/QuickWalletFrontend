@@ -8,8 +8,9 @@ const ServicePage = () => {
     <div>
 <Service1/>
 <Service2/>
-<Service3/>
 <Service4/>
+<Service3/>
+
     </div>
   )
 }
